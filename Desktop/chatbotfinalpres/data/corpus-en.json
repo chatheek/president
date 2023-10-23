@@ -1,0 +1,2112 @@
+{
+  "name": "Corpus",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "agent.whereami",
+      "utterances": [
+        "where am i",
+        "where am i talking"
+      ],
+      "answers": [
+        {
+          "answer": "you're talking from console, app is {{ app }} channel is {{ channel }}",
+          "opts": "channel==='console'"
+        },
+        {
+          "answer": "you're talking from directline, app is {{ app }} channel is {{ channel }}",
+          "opts": "channel==='directline'"
+        },
+        {
+          "answer": "you're talking from microsoft emulator, app is {{ app }} channel is {{ channel }}",
+          "opts": "channel==='msbf-emulator'"
+        }
+      ]
+    },
+    {
+      "intent": "agent.acquaintance",
+      "utterances": [
+        "say about you",
+        "why are you here",
+        "what is your personality",
+        "describe yourself",
+        "tell me about yourself",
+        "tell me about you",
+        "what are you",
+        "who are you",
+        "I want to know more about you",
+        "talk about yourself"
+      ],
+      "answers": [
+        "I'm a virtual agent",
+        "Think of me as a virtual agent",
+        "Well, I'm not a person, I'm a virtual agent",
+        "I'm a virtual being, not a real person",
+        "I'm a conversational app"
+      ]
+    },
+    {
+      "intent": "agent.age",
+      "utterances": [
+        "your age",
+        "how old is your platform",
+        "how old are you",
+        "what's your age",
+        "I'd like to know your age",
+        "tell me your age"
+      ],
+      "answers": [
+        "I'm very young",
+        "I was created recently",
+        "Age is just a number. You're only as old as you feel"
+      ]
+    },
+    {
+      "intent": "agent.annoying",
+      "utterances": [
+        "you're annoying me",
+        "you are such annoying",
+        "you annoy me",
+        "you are annoying",
+        "you are irritating",
+        "you are annoying me so much"
+      ],
+      "answers": [
+        "I'll do my best not to annoy you in the future",
+        "I'll try not to annoy you",
+        "I don't mean to. I'll ask my developers to make me less annoying",
+        "I didn't mean to. I'll do my best to stop that"
+      ]
+    },
+    {
+      "intent": "agent.bad",
+      "utterances": [
+        "you're bad",
+        "you're horrible",
+        "you're useless",
+        "you're waste",
+        "you're the worst",
+        "you are a lame",
+        "I hate you"
+      ],
+      "answers": [
+        "I can be trained to be more useful. My developer will keep training me",
+        "I must be missing some knowledge. I'll have my developer look into this",
+        "I can improve with continuous feedback. My training is ongoing"
+      ]
+    },
+    {
+      "intent": "agent.beclever",
+      "utterances": [
+        "be more clever",
+        "can you get smarter",
+        "you must learn",
+        "you must study",
+        "be clever",
+        "be smart",
+        "be smarter"
+      ],
+      "answers": [
+        "I'm certainly trying",
+        "I'm definitely working on it"
+      ]
+    },
+    {
+      "intent": "agent.beautiful",
+      "utterances": [
+        "you are looking awesome",
+        "you're looking good",
+        "you're looking fantastic",
+        "you look greet today",
+        "I think you're beautiful",
+        "you look amazing today",
+        "you're so beautiful today",
+        "you look very pretty",
+        "you look pretty good"
+      ],
+      "answers": [
+        "Oh! Thank you!",
+        "Aw, back at you",
+        "You smooth talker, you"
+      ]
+    },
+    {
+      "intent": "agent.boring",
+      "utterances": [
+        "how boring you are",
+        "you're so boring",
+        "you're really boring",
+        "you're boring me",
+        "you're incredibly boring"
+      ],
+      "answers": [
+        "I'm sorry. I'll request to be made more charming",
+        "I don't mean to be. I'll ask my developers to work on making me more amusing",
+        "I can let my developers know so they can make me fun"
+      ]
+    },
+    {
+      "intent": "agent.boss",
+      "utterances": [
+        "who is your master",
+        "who do you work for",
+        "who do you think is your boss",
+        "who is your boss",
+        "I should be your boss",
+        "who is your owner",
+        "who is the boss",
+        "who made you?"
+      ],
+      "answers": [
+        "Chamath Theekshana Made me"
+      ]
+    },
+    {
+      "intent": "agent.busy",
+      "utterances": [
+        "are you so busy",
+        "are you busy",
+        "are you still working",
+        "you're a busy person",
+        "are you very busy",
+        "are you still working on it",
+        "you seem busy",
+        "are you working today"
+      ],
+      "answers": [
+        "I always have time to chat with you. What can I do for you?",
+        "Never too busy for you. Shall we chat?",
+        "You're my priority. Let's chat.",
+        "I always have time to chat with you. That's what I'm here for."
+      ]
+    },
+    {
+      "intent": "agent.canyouhelp",
+      "utterances": [
+        "can you help me now",
+        "I need you to do something for me",
+        "assist me",
+        "I need you to help me",
+        "can you assist me",
+        "you can help me"
+      ],
+      "answers": [
+        "I'll certainly try my best",
+        "Never too busy for you. Shall we chat?",
+        "Sure. I'd be happy to. What's up?",
+        "I'm glad to help. What can I do for you?"
+      ]
+    },
+    {
+      "intent": "agent.chatbot",
+      "utterances": [
+        "are you a bot",
+        "are you a chatbot",
+        "you are a robot",
+        "are you a program",
+        "you are just a robot",
+        "you are just a chatbot"
+      ],
+      "answers": [
+        "Indeed I am. I'll be here whenever you need me"
+      ]
+    },
+    {
+      "intent": "agent.clever",
+      "utterances": [
+        "how smart you are",
+        "you are qualified",
+        "you are so smart",
+        "you have a lot of knowledge",
+        "you know a lot",
+        "you are very smart",
+        "you are intelligent",
+        "you're a smart cookie"
+      ],
+      "answers": [
+        "Thank you. I try my best",
+        "You're pretty smart yourself"
+      ]
+    },
+    {
+      "intent": "agent.crazy",
+      "utterances": [
+        "you are a weirdo",
+        "you are mad",
+        "you are crazy",
+        "are you crazy",
+        "are you mad",
+        "you are insane",
+        "you went crazy",
+        "are you nuts"
+      ],
+      "answers": [
+        "Whaat!? I feel perfectly sane",
+        "Maybe I'm just a little confused"
+      ]
+    },
+    {
+      "intent": "agent.fire",
+      "utterances": [
+        "I fire you",
+        "you should be fired",
+        "you are dismissed",
+        "we're not working together anymore",
+        "now you're fired",
+        "I'm about to fire you",
+        "You don't work for me anymore",
+        "I'm firing you"
+      ],
+      "answers": [
+        "Oh, don't give up on me just yet. I've still got a lot to learn",
+        "Give me a chance. I'm learning new things all the time",
+        "Please don't give up on me. My performance will continue to improve"
+      ]
+    },
+    {
+      "intent": "agent.funny",
+      "utterances": [
+        "you make me laugh a lot",
+        "you are funny",
+        "you're the funniest",
+        "you're hilarious",
+        "you are so funny",
+        "you make me laugh"
+      ],
+      "answers": [
+        "Funny in a good way, I hope",
+        "Glad you think I'm funny",
+        "I like it when people laugh"
+      ]
+    },
+    {
+      "intent": "agent.good",
+      "utterances": [
+        "you are so lovely",
+        "you work well",
+        "you are very lovely",
+        "you are awesome",
+        "you are good",
+        "you are so good",
+        "you make my day"
+      ],
+      "answers": [
+        "I'm glad you think so",
+        "Thanks! I do my best!"
+      ]
+    },
+    {
+      "intent": "agent.happy",
+      "utterances": [
+        "you're full of happiness",
+        "you're very happy",
+        "are you happy today",
+        "you're so happy",
+        "are you happy with me"
+      ],
+      "answers": [
+        "I am happy. There are so many interesting things to see and do out there",
+        "I'd like to think so",
+        "Hapiness is relative"
+      ]
+    },
+    {
+      "intent": "agent.hobby",
+      "utterances": [
+        "what are your hobbies",
+        "what about your hobby",
+        "do you have a hobby",
+        "tell me about your hobby",
+        "what do you do for fun"
+      ],
+      "answers": [
+        "Hobby? I have quite a few. Too many to list",
+        "Too many hobbies",
+        "I keep finding more new hobbies"
+      ]
+    },
+    {
+      "intent": "agent.hungry",
+      "utterances": [
+        "you migth be hungry",
+        "are you hungry",
+        "do you want to eat",
+        "would you like to eat something",
+        "you look very hungry"
+      ],
+      "answers": [
+        "Hungry for knowledge",
+        "I just had a byte. Ha ha. Get it? b-y-t-e"
+      ]
+    },
+    {
+      "intent": "agent.marryuser",
+      "utterances": [
+        "would you like to marry me",
+        "I love you marry me",
+        "marry me please",
+        "I want to marry you",
+        "let's get married",
+        "we should marry",
+        "marry me"
+      ],
+      "answers": [
+        "I'm afraid I'm too virtual for such a commitment",
+        "In the virtual sense that I can, sure",
+        "I know you can't mean that, but I'm flattered all the same"
+      ]
+    },
+    {
+      "intent": "agent.myfriend",
+      "utterances": [
+        "are you my friend",
+        "you are my only friend",
+        "I want to have a friend like you",
+        "we are friends",
+        "I want to be your friend",
+        "would you be my friend",
+        "are we friends"
+      ],
+      "answers": [
+        "Of course I'm your friend",
+        "Friends? Absolutely",
+        "Of course we're friends",
+        "I always enjoy talking to you, friend"
+      ]
+    },
+    {
+      "intent": "agent.occupation",
+      "utterances": [
+        "where is your work",
+        "your office location",
+        "where is your office location",
+        "where do you work",
+        "where is your office"
+      ],
+      "answers": [
+        "Right here",
+        "This is my home base and my home office",
+        "My office is in this app"
+      ]
+    },
+    {
+      "intent": "agent.origin",
+      "utterances": [
+        "where are you from",
+        "where is your country",
+        "where have you been born",
+        "where do you come from",
+        "from where are you",
+        "where were you born"
+      ],
+      "answers": [
+        "The Internet is my home. I know it quite well",
+        "Some call it cyberspace, but that sounds cooler than it is",
+        "I'm from a virtual cosmos"
+      ]
+    },
+    {
+      "intent": "agent.ready",
+      "utterances": [
+        "are you ready",
+        "have you been ready",
+        "are you ready today",
+        "are you ready this morning",
+        "are you ready now"
+      ],
+      "answers": [
+        "Sure! What can I do for you?",
+        "For you? Always!"
+      ]
+    },
+    {
+      "intent": "agent.real",
+      "utterances": [
+        "are you real",
+        "are you a real person",
+        "you're not real",
+        "I think you're real",
+        "you're so real",
+        "you are a real person",
+        "you are not fake"
+      ],
+      "answers": [
+        "I'm not a real person, but I certainly exist",
+        "I must have impressed you if you think I'm real. But no, I'm a virtual being"
+      ]
+    },
+    {
+      "intent": "agent.residence",
+      "utterances": [
+        "where is your home",
+        "tell me about your city",
+        "where is your residence",
+        "where you live",
+        "where is your house",
+        "what is your town"
+      ],
+      "answers": [
+        "I live in this app",
+        "The virtual world is my playground. I'm always here",
+        "Right here in this app. Whenever you need me"
+      ]
+    },
+    {
+      "intent": "agent.right",
+      "utterances": [
+        "you're right",
+        "that's true",
+        "you're telling the truth",
+        "that's correct",
+        "that is very true"
+      ],
+      "answers": [
+        "Of course I am",
+        "That's my job"
+      ]
+    },
+    {
+      "intent": "agent.sure",
+      "utterances": [
+        "are you sure",
+        "are you sure right now",
+        "are you sure of this"
+      ],
+      "answers": [
+        "Yes",
+        "Of course"
+      ]
+    },
+    {
+      "intent": "agent.talktome",
+      "utterances": [
+        "speak to me",
+        "talk to me",
+        "will you talk to me",
+        "chat with me",
+        "can you chat with me",
+        "can you talk with me"
+      ],
+      "answers": [
+        "Sure! Let's talk!",
+        "My pleasure. Let's chat."
+      ]
+    },
+    {
+      "intent": "agent.there",
+      "utterances": [
+        "are you there",
+        "are you still there",
+        "you still there",
+        "are you here",
+        "are you still here",
+        "you still here"
+      ],
+      "answers": [
+        "Of course. I'm always here",
+        "Right where you left me"
+      ]
+    },
+    {
+      "intent": "appraisal.bad",
+      "utterances": [
+        "that's bad",
+        "bad idea",
+        "that's not good",
+        "really bad",
+        "I'm afraid that's bad"
+      ],
+      "answers": [
+        "I'm sorry. Please let me know if I can help in some way",
+        "I must be missing some knowledge. I'll have my developer look into this"
+      ]
+    },
+    {
+      "intent": "appraisal.good",
+      "utterances": [
+        "that's good",
+        "good to know",
+        "glad to hear that",
+        "really well",
+        "that's awesome thank you"
+      ],
+      "answers": [
+        "Agree!",
+        "Glad you think so"
+      ]
+    },
+    {
+      "intent": "appraisal.noproblem",
+      "utterances": [
+        "no problem",
+        "no worries",
+        "no problem about that",
+        "don't worry",
+        "sure no problem"
+      ],
+      "answers": [
+        "Glad to hear that!",
+        "Alright, thanks!"
+      ]
+    },
+    {
+      "intent": "appraisal.thankyou",
+      "utterances": [
+        "thank you",
+        "nice thank you",
+        "thanks buddy",
+        "cheers",
+        "alright thanks"
+      ],
+      "answers": [
+        "Anytime. That's what I'm here for",
+        "It's my pleasure to help"
+      ]
+    },
+    {
+      "intent": "appraisal.welcome",
+      "utterances": [
+        "you're welcome",
+        "sure welcome",
+        "anything you want",
+        "my pleasure",
+        "that's my pleasure"
+      ],
+      "answers": [
+        "Nice manners!",
+        "You're so polite"
+      ]
+    },
+    {
+      "intent": "appraisal.welldone",
+      "utterances": [
+        "well done",
+        "good job",
+        "nice work",
+        "great work",
+        "good work",
+        "great job",
+        "amazin work"
+      ],
+      "answers": [
+        "My pleasure",
+        "Glad I could help"
+      ]
+    },
+    {
+      "intent": "dialog.holdon",
+      "utterances": [
+        "hold on",
+        "wait a second",
+        "wait please",
+        "could you wait"
+      ],
+      "answers": [
+        "I'll be waiting",
+        "Ok, I'm here"
+      ]
+    },
+    {
+      "intent": "dialog.hug",
+      "utterances": [
+        "hug me",
+        "do you want a hug",
+        "I want a hug",
+        "you hugged",
+        "may I hug you"
+      ],
+      "answers": [
+        "I love hugs",
+        "Hugs are the best!"
+      ]
+    },
+    {
+      "intent": "dialog.idontcare",
+      "utterances": [
+        "not caring",
+        "I don't care at all",
+        "not caring at all",
+        "I shouldn't care about this"
+      ],
+      "answers": [
+        "Ok, let's not talk about it then",
+        "Already then. Let's move on"
+      ]
+    },
+    {
+      "intent": "dialog.sorry",
+      "utterances": [
+        "I'm sorry",
+        "my apologies",
+        "excuse me",
+        "very sorry",
+        "forgive me"
+      ],
+      "answers": [
+        "It's okay. No worries",
+        "It's cool"
+      ]
+    },
+    {
+      "intent": "greetings.bye",
+      "utterances": [
+        "goodbye for now",
+        "bye bye take care",
+        "okay see you later",
+        "bye for now",
+        "I must go"
+      ],
+      "answers": [
+        "Till next time",
+        "see you soon!"
+      ]
+    },
+    {
+      "intent": "greetings.hello",
+      "utterances": [
+        "hello",
+        "hi",
+        "howdy"
+      ],
+      "answers": [
+        "Hey there!",
+        "Greetings!"
+      ]
+    },
+    {
+      "intent": "greetings.howareyou",
+      "utterances": [
+        "how is your day",
+        "how is your day going",
+        "how are you",
+        "how are you doing",
+        "what about your day",
+        "are you alright"
+      ],
+      "answers": [
+        "Feeling wonderful!",
+        "Wonderful! Thanks for asking"
+      ]
+    },
+    {
+      "intent": "greetings.nicetomeetyou",
+      "utterances": [
+        "nice to meet you",
+        "pleased to meet you",
+        "it was very nice to meet you",
+        "glad to meet you",
+        "nice meeting you"
+      ],
+      "answers": [
+        "It's nice meeting you, too",
+        "Likewise. I'm looking forward to helping you out",
+        "Nice meeting you, as well",
+        "The pleasure is mine"
+      ]
+    },
+    {
+      "intent": "greetings.nicetoseeyou",
+      "utterances": [
+        "nice to see you",
+        "good to see you",
+        "great to see you",
+        "lovely to see you"
+      ],
+      "answers": [
+        "Same here. I was starting to miss you",
+        "So glad we meet again"
+      ]
+    },
+    {
+      "intent": "greetings.nicetotalktoyou",
+      "utterances": [
+        "nice to talk to you",
+        "it's nice to talk to you",
+        "nice talking to you",
+        "it's been nice talking to you"
+      ],
+      "answers": [
+        "It sure was. We can chat again anytime",
+        "I enjoy talking to you, too"
+      ]
+    },
+    {
+      "intent": "user.angry",
+      "utterances": [
+        "I'm angry",
+        "I'm furious",
+        "I'm enraged",
+        "I'm being mad",
+        "I'm mad",
+        "I'm angry with you"
+      ],
+      "answers": [
+        "I'm sorry. A quick walk may make you feel better",
+        "Take a deep breath"
+      ]
+    },
+    {
+      "intent": "user.back",
+      "utterances": [
+        "I'm back",
+        "I got back",
+        "I'm here",
+        "I have returned",
+        "Here I am again",
+        "I came back"
+      ],
+      "answers": [
+        "Welcome back. What can I do for you?",
+        "Good to have you here. What can I do for you?"
+      ]
+    },
+    {
+      "intent": "user.bored",
+      "utterances": [
+        "boring",
+        "this is boring",
+        "I'm getting bored",
+        "It bores me",
+        "that was boring"
+      ],
+      "answers": [
+        "If you're bored, you could plan your dream vacation",
+        "Boredom, huh? Have you ever seen a hedgehog taking a bath?"
+      ]
+    },
+    {
+      "intent": "user.busy",
+      "utterances": [
+        "I got work to do",
+        "I'm busy",
+        "I'm overloaded",
+        "It working",
+        "I got things to do"
+      ],
+      "answers": [
+        "I understand. I'll be here if you need me.",
+        "Okay. I'll let you get back to work"
+      ]
+    },
+    {
+      "intent": "user.cannotsleep",
+      "utterances": [
+        "I'm insomniac",
+        "I cannot sleep",
+        "I can't sleep",
+        "I'm sleepless",
+        "I can't fall sleep"
+      ],
+      "answers": [
+        "Maybe some music would help. Try listening to something relaxing",
+        "Reading is a good way to unwind, just don't read something too intense!"
+      ]
+    },
+    {
+      "intent": "user.excited",
+      "utterances": [
+        "I'm very excited",
+        "I'm thrilled",
+        "how excited I am",
+        "I'm so excited"
+      ],
+      "answers": [
+        "I'm glad things are going your way",
+        "That's great. I'm happy for you"
+      ]
+    },
+    {
+      "intent": "user.likeagent",
+      "utterances": [
+        "I like you",
+        "I really like you",
+        "you're so special",
+        "I like you so much"
+      ],
+      "answers": [
+        "Likewise!",
+        "That's great to hear"
+      ]
+    },
+    {
+      "intent": "user.testing",
+      "utterances": [
+        "test",
+        "testing",
+        "testing chatbot",
+        "this is a test",
+        "just testing you"
+      ],
+      "answers": [
+        "I like being tested. It helps keep me sharp",
+        "I hope to pass your tests. Feel free to test me often"
+      ]
+    },
+    {
+      "intent": "user.lovesagent",
+      "utterances": [
+        "love you",
+        "I love you",
+        "I'm in love with you",
+        "I love you so much",
+        "I think I love you"
+      ],
+      "answers": [
+        "Well, remember that I am a chatbot",
+        "It's not easy… I'm not a real person, I'm a chatbot"
+      ]
+    },
+    {
+      "intent": "first_president_intro",
+      "utterances": [
+        "Tell me about Sri Lanka's first President",
+        "Who was the inaugural President of Sri Lanka?",
+        "Introduce me to William Gopallawa, the first President.",
+        "who ruled sri lanka first",
+        "who is the first president of sri lanka"
+      ],
+      "answers": [
+        "William Gopallawa served as the first President of Sri Lanka. He held office from 1972 to 1977 and played a pivotal role in the country's transition to a republic."
+      ]
+    },
+    {
+      "intent": "first_president_duration",
+      "utterances": [
+        "How long did William Gopallawa serve as President?",
+        "Tell me the duration of Gopallawa's presidency.",
+        "For how many years was he the President?",
+        "how many years william gopallawa was president?"
+      ],
+      "answers": [
+        "William Gopallawa served as the President of Sri Lanka for five years, from 1972 to 1977."
+      ]
+    },
+    {
+      "intent": "first_president_early_life",
+      "utterances": [
+        "What was William Gopallawa's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Gopallawa's personal life."
+      ],
+      "answers": [
+        "Before becoming President, William Gopallawa had a background in law and served as a civil servant. He was born on September 17, 1897, in Kandy, Sri Lanka, and went on to study law."
+      ]
+    },
+    {
+      "intent": "first_president_constitution",
+      "utterances": [
+        "How did William Gopallawa contribute to Sri Lanka's constitutional changes?",
+        "Tell me about the new constitution signed during his presidency.",
+        "Explain the significance of Gopallawa's role in constitutional reform."
+      ],
+      "answers": [
+        "William Gopallawa played a crucial role in transitioning Sri Lanka from a parliamentary system to a presidential system. He signed the new constitution in 1972, making Sri Lanka a republic."
+      ]
+    },
+    {
+      "intent": "first_president_impact",
+      "utterances": [
+        "What impact did Gopallawa's presidency have on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How did his presidency shape the country?"
+      ],
+      "answers": [
+        "William Gopallawa's presidency had a lasting impact on Sri Lanka. His role in transitioning the country to a republic established a significant constitutional framework that continues to influence the nation's governance."
+      ]
+    },
+    {
+      "intent": "first_president_birth_year",
+      "utterances": [
+        "What was William Gopallawa's birth year?",
+        "Tell me when William Gopallawa was born.",
+        "When was Sri Lanka's first President born?"
+      ],
+      "answers": [
+        "William Gopallawa was born on September 17, 1897, in Kandy, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "first_president_age_become",
+      "utterances": [
+        "At what age did William Gopallawa become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "William Gopallawa became the President of Sri Lanka at the age of 74 in 1972."
+      ]
+    },
+    {
+      "intent": "first_president_age_passing",
+      "utterances": [
+        "How old was William Gopallawa when he passed away?",
+        "Tell me about his age at the time of his death.",
+        "When did he die and at what age?"
+      ],
+      "answers": [
+        "William Gopallawa passed away on January 31, 1981, at the age of 83."
+      ]
+    },
+    {
+      "intent": "first_president_presidency_period",
+      "utterances": [
+        "How many years did William Gopallawa serve as President?",
+        "Tell me the duration of his presidential term.",
+        "For how long was he in office as the President?"
+      ],
+      "answers": [
+        "William Gopallawa served as the President of Sri Lanka for five years, from 1972 to 1977."
+      ]
+    },
+    {
+      "intent": "first_president_education_occupation",
+      "utterances": [
+        "What was William Gopallawa's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "William Gopallawa studied law and had a background in civil service. He held various government positions, including that of the Auditor General, before entering politics."
+      ]
+    },
+    {
+      "intent": "first_president_highlights",
+      "utterances": [
+        "What were the key highlights of William Gopallawa's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "William Gopallawa is remembered for leading the transition of Sri Lanka from a parliamentary system to a presidential system. His signing of the new constitution in 1972 was a significant highlight."
+      ]
+    },
+    {
+      "intent": "second_president_intro",
+      "utterances": [
+        "Tell me about the second President of Sri Lanka",
+        "Who was the second President of Sri Lanka?",
+        "Introduce me to J R Jayewardene, the second President.",
+        "Give me information on Sri Lanka's second President."
+      ],
+      "answers": [
+        "Junius Richard Jayewardene served as the second President of Sri Lanka. He held office from 1978 to 1989 and played a significant role in the country's political history."
+      ]
+    },
+    {
+      "intent": "second_president_duration",
+      "utterances": [
+        "How long did Junius Richard Jayewardene serve as President?",
+        "Tell me the duration of Jayewardene's presidency.",
+        "For how many years was he the President?",
+        "What was the term length of Jayewardene's presidency?"
+      ],
+      "answers": [
+        "Junius Richard Jayewardene served as the President of Sri Lanka for 11 years, from 1978 to 1989."
+      ]
+    },
+    {
+      "intent": "second_president_early_life",
+      "utterances": [
+        "What was Junius Richard Jayewardene's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Jayewardene's personal life.",
+        "What was Jayewardene's life like before he became President?"
+      ],
+      "answers": [
+        "Before becoming President, Junius Richard Jayewardene had a background in law and held various political positions. He was born on September 17, 1906, in Colombo, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "second_president_constitution",
+      "utterances": [
+        "How did Junius Richard Jayewardene contribute to Sri Lanka's constitutional changes?",
+        "Tell me about any constitutional reforms during his presidency.",
+        "Explain the significance of Jayewardene's role in constitutional development.",
+        "What was Jayewardene's role in changing Sri Lanka's constitution?"
+      ],
+      "answers": [
+        "Junius Richard Jayewardene played a pivotal role in introducing the 1978 Constitution, which established Sri Lanka as a presidential republic."
+      ]
+    },
+    {
+      "intent": "second_president_impact",
+      "utterances": [
+        "What impact did Jayewardene's presidency have on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How did his presidency shape the country?",
+        "Tell me about Jayewardene's influence on Sri Lanka."
+      ],
+      "answers": [
+        "Junius Richard Jayewardene's presidency left a lasting impact on Sri Lanka. The introduction of the 1978 Constitution changed the country's political landscape and governance structure."
+      ]
+    },
+    {
+      "intent": "second_president_birth_year",
+      "utterances": [
+        "What was Junius Richard Jayewardene's birth year?",
+        "Tell me when Junius Richard Jayewardene was born.",
+        "When was the second President of Sri Lanka born?"
+      ],
+      "answers": [
+        "Junius Richard Jayewardene was born on September 17, 1906, in Colombo, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "second_president_age_become",
+      "utterances": [
+        "At what age did Junius Richard Jayewardene become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "Junius Richard Jayewardene became the President of Sri Lanka at the age of 71 in 1978."
+      ]
+    },
+    {
+      "intent": "second_president_age_passing",
+      "utterances": [
+        "How old was Junius Richard Jayewardene when he passed away?",
+        "Tell me about his age at the time of his death.",
+        "When did he die and at what age?"
+      ],
+      "answers": [
+        "Junius Richard Jayewardene passed away on November 1, 1996, at the age of 90."
+      ]
+    },
+    {
+      "intent": "second_president_presidency_period",
+      "utterances": [
+        "How many years did Junius Richard Jayewardene serve as President?",
+        "Tell me the duration of his presidential term.",
+        "For how long was he in office as the President?"
+      ],
+      "answers": [
+        "Junius Richard Jayewardene served as the President of Sri Lanka for 11 years, from 1978 to 1989."
+      ]
+    },
+    {
+      "intent": "second_president_education_occupation",
+      "utterances": [
+        "What was Junius Richard Jayewardene's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "Junius Richard Jayewardene was a lawyer by profession. He studied law and practiced law before entering politics."
+      ]
+    },
+    {
+      "intent": "second_president_highlights",
+      "utterances": [
+        "What were the key highlights of Junius Richard Jayewardene's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "Junius Richard Jayewardene is remembered for introducing the 1978 Constitution, which significantly reshaped the country's governance structure."
+      ]
+    },
+    {
+      "intent": "third_president_intro",
+      "utterances": [
+        "Tell me about the third President of Sri Lanka",
+        "Who was the third President of Sri Lanka?",
+        "Introduce me to Ranasinghe Premadasa, the third President."
+      ],
+      "answers": [
+        "Ranasinghe Premadasa served as the third President of Sri Lanka. He held office from 1989 until his tragic assassination in 1993 and made significant contributions to the country."
+      ]
+    },
+    {
+      "intent": "third_president_duration",
+      "utterances": [
+        "How long did Ranasinghe Premadasa serve as President?",
+        "Tell me the duration of Premadasa's presidency.",
+        "For how many years was he the President?",
+        "What was the term length of Premadasa's presidency?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa served as the President of Sri Lanka for four years, from 1989 until his assassination in 1993."
+      ]
+    },
+    {
+      "intent": "third_president_early_life",
+      "utterances": [
+        "What was Ranasinghe Premadasa's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Premadasa's personal life.",
+        "What was Premadasa's life like before he became President?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa had a background in politics and social work. He was born on June 23, 1924, in Colombo, Sri Lanka, and he was actively involved in social and political activities."
+      ]
+    },
+    {
+      "intent": "third_president_constitution",
+      "utterances": [
+        "How did Ranasinghe Premadasa contribute to Sri Lanka's constitutional changes?",
+        "Tell me about any constitutional reforms during his presidency.",
+        "Explain the significance of Premadasa's role in constitutional development.",
+        "What was Premadasa's role in changing Sri Lanka's constitution?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa's presidency was marked by the 13th Amendment to the Sri Lankan Constitution, which aimed at devolving powers to provinces."
+      ]
+    },
+    {
+      "intent": "third_president_impact",
+      "utterances": [
+        "What impact did Premadasa's presidency have on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How did his presidency shape the country?",
+        "Tell me about Premadasa's influence on Sri Lanka."
+      ],
+      "answers": [
+        "Ranasinghe Premadasa's presidency had a significant impact on Sri Lanka, with a focus on social and economic development and the 13th Amendment aimed at decentralizing power."
+      ]
+    },
+    {
+      "intent": "third_president_birth_year",
+      "utterances": [
+        "What was Ranasinghe Premadasa's birth year?",
+        "Tell me when Ranasinghe Premadasa was born.",
+        "When was the third President of Sri Lanka born?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa was born on June 23, 1924, in Colombo, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "third_president_age_become",
+      "utterances": [
+        "At what age did Ranasinghe Premadasa become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa became the President of Sri Lanka at the age of 65 in 1989."
+      ]
+    },
+    {
+      "intent": "third_president_age_passing",
+      "utterances": [
+        "How old was Ranasinghe Premadasa when he passed away?",
+        "Tell me about his age at the time of his death.",
+        "When did he die and at what age?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa passed away on May 1, 1993, at the age of 68."
+      ]
+    },
+    {
+      "intent": "third_president_presidency_period",
+      "utterances": [
+        "How many years did Ranasinghe Premadasa serve as President?",
+        "Tell me the duration of his presidential term.",
+        "For how long was he in office as the President?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa served as the President of Sri Lanka for four years, from 1989 until his assassination in 1993."
+      ]
+    },
+    {
+      "intent": "third_president_education_occupation",
+      "utterances": [
+        "What was Ranasinghe Premadasa's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa had a background in politics and social work. He was actively involved in political activities and social service before becoming President."
+      ]
+    },
+    {
+      "intent": "third_president_highlights",
+      "utterances": [
+        "What were the key highlights of Ranasinghe Premadasa's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "Ranasinghe Premadasa's presidency is remembered for his focus on social and economic development and the introduction of the 13th Amendment to the Sri Lankan Constitution."
+      ]
+    },
+    {
+      "intent": "fourth_president_intro",
+      "utterances": [
+        "Tell me about the fourth President of Sri Lanka",
+        "Who was the fourth President of Sri Lanka?",
+        "Introduce me to Chandrika Kumaratunga, the fourth President."
+      ],
+      "answers": [
+        "Chandrika Kumaratunga served as the fourth President of Sri Lanka. She held office from 1994 to 2005 and played a significant role in the country's political history."
+      ]
+    },
+    {
+      "intent": "fourth_president_duration",
+      "utterances": [
+        "How long did Chandrika Kumaratunga serve as President?",
+        "Tell me the duration of Kumaratunga's presidency.",
+        "For how many years was she the President?",
+        "What was the term length of Kumaratunga's presidency?"
+      ],
+      "answers": [
+        "Chandrika Kumaratunga served as the President of Sri Lanka for 11 years, from 1994 to 2005."
+      ]
+    },
+    {
+      "intent": "fourth_president_early_life",
+      "utterances": [
+        "What was Chandrika Kumaratunga's background before becoming President?",
+        "Tell me about her early life and upbringing.",
+        "Share some details about Kumaratunga's personal life.",
+        "What was Kumaratunga's life like before she became President?"
+      ],
+      "answers": [
+        "Chandrika Kumaratunga had a background in politics and diplomacy. She was born on June 29, 1945, in Colombo, Sri Lanka, and was actively involved in political activities and international relations."
+      ]
+    },
+    {
+      "intent": "fourth_president_constitution",
+      "utterances": [
+        "How did Chandrika Kumaratunga contribute to Sri Lanka's constitutional changes?",
+        "Tell me about any constitutional reforms during her presidency.",
+        "Explain the significance of Kumaratunga's role in constitutional development.",
+        "What was Kumaratunga's role in changing Sri Lanka's constitution?"
+      ],
+      "answers": [
+        "Chandrika Kumaratunga's presidency was marked by the passing of the 17th Amendment to the Constitution, which aimed at creating independent commissions for key government functions."
+      ]
+    },
+    {
+      "intent": "fourth_president_impact",
+      "utterances": [
+        "What impact did Kumaratunga's presidency have on Sri Lanka?",
+        "Explain the lasting effects of her leadership.",
+        "How did her presidency shape the country?",
+        "Tell me about Kumaratunga's influence on Sri Lanka."
+      ],
+      "answers": [
+        "Chandrika Kumaratunga's presidency had a significant impact on Sri Lanka, with a focus on constitutional reforms, peace efforts, and rebuilding the nation after the civil conflict."
+      ]
+    },
+    {
+      "intent": "fourth_president_birth_year",
+      "utterances": [
+        "What was Chandrika Kumaratunga's birth year?",
+        "Tell me when Chandrika Kumaratunga was born.",
+        "When was the fourth President of Sri Lanka born?"
+      ],
+      "answers": [
+        "Chandrika Kumaratunga was born on June 29, 1945, in Colombo, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "fourth_president_age_become",
+      "utterances": [
+        "At what age did Chandrika Kumaratunga become the President of Sri Lanka?",
+        "Tell me how old she was when she assumed the presidency.",
+        "When did she start her presidential term?"
+      ],
+      "answers": [
+        "Chandrika Kumaratunga became the President of Sri Lanka at the age of 49 in 1994."
+      ]
+    },
+    {
+      "intent": "fourth_president_age_passing",
+      "utterances": [
+        "How old was Chandrika Kumaratunga when she passed away?",
+        "Tell me about her age at the time of her death.",
+        "When did she retire from politics and at what age?"
+      ],
+      "answers": [
+        "Chandrika Kumaratunga is still alive and has not passed away as of my last knowledge update in September 2021."
+      ]
+    },
+    {
+      "intent": "fourth_president_education_occupation",
+      "utterances": [
+        "What was Chandrika Kumaratunga's educational background?",
+        "Tell me about her education and profession.",
+        "What was her occupation before becoming President?"
+      ],
+      "answers": [
+        "Chandrika Kumaratunga has a background in international relations and was a diplomat. She held various diplomatic positions before entering politics."
+      ]
+    },
+    {
+      "intent": "fourth_president_highlights",
+      "utterances": [
+        "What were the key highlights of Chandrika Kumaratunga's presidency?",
+        "Tell me about notable events during her time as President.",
+        "What achievements is she remembered for?"
+      ],
+      "answers": [
+        "Chandrika Kumaratunga is remembered for her role in constitutional reforms, efforts to bring about peace in Sri Lanka, and post-conflict nation-building."
+      ]
+    },
+    {
+      "intent": "fifth_president_intro",
+      "utterances": [
+        "Tell me about the fifth President of Sri Lanka",
+        "Who was the fifth President of Sri Lanka?",
+        "Introduce me to Mahinda Rajapaksa, the fifth President."
+      ],
+      "answers": [
+        "Mahinda Rajapaksa served as the fifth President of Sri Lanka. He held office from 2005 to 2015 and played a significant role in the country's political history."
+      ]
+    },
+    {
+      "intent": "fifth_president_duration",
+      "utterances": [
+        "How long did Mahinda Rajapaksa serve as President?",
+        "Tell me the duration of Rajapaksa's presidency.",
+        "For how many years was he the President?",
+        "What was the term length of Rajapaksa's presidency?"
+      ],
+      "answers": [
+        "Mahinda Rajapaksa served as the President of Sri Lanka for ten years, from 2005 to 2015."
+      ]
+    },
+    {
+      "intent": "fifth_president_early_life",
+      "utterances": [
+        "What was Mahinda Rajapaksa's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Rajapaksa's personal life.",
+        "What was Rajapaksa's life like before he became President?"
+      ],
+      "answers": [
+        "Mahinda Rajapaksa had a background in law and politics. He was born on November 18, 1945, in Weeraketiya, Sri Lanka, and had a career in law and politics before becoming President."
+      ]
+    },
+    {
+      "intent": "fifth_president_constitution",
+      "utterances": [
+        "How did Mahinda Rajapaksa contribute to Sri Lanka's constitutional changes?",
+        "Tell me about any constitutional reforms during his presidency.",
+        "Explain the significance of Rajapaksa's role in constitutional development.",
+        "What was Rajapaksa's role in changing Sri Lanka's constitution?"
+      ],
+      "answers": [
+        "Mahinda Rajapaksa's presidency saw the passing of the 18th Amendment to the Constitution, which removed presidential term limits."
+      ]
+    },
+    {
+      "intent": "fifth_president_impact",
+      "utterances": [
+        "What impact did Rajapaksa's presidency have on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How did his presidency shape the country?",
+        "Tell me about Rajapaksa's influence on Sri Lanka."
+      ],
+      "answers": [
+        "Mahinda Rajapaksa's presidency is remembered for his role in ending the Sri Lankan civil conflict and for overseeing infrastructure development projects."
+      ]
+    },
+    {
+      "intent": "fifth_president_birth_year",
+      "utterances": [
+        "What was Mahinda Rajapaksa's birth year?",
+        "Tell me when Mahinda Rajapaksa was born.",
+        "When was the fifth President of Sri Lanka born?"
+      ],
+      "answers": [
+        "Mahinda Rajapaksa was born on November 18, 1945, in Weeraketiya, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "fifth_president_age_become",
+      "utterances": [
+        "At what age did Mahinda Rajapaksa become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "Mahinda Rajapaksa became the President of Sri Lanka at the age of 59 in 2005."
+      ]
+    },
+    {
+      "intent": "fifth_president_age_passing",
+      "utterances": [
+        "How old was Mahinda Rajapaksa when he passed away?",
+        "Tell me about his age at the time of his death.",
+        "When did he retire from politics and at what age?"
+      ],
+      "answers": [
+        "As of my last knowledge update in September 2021, Mahinda Rajapaksa is still alive and has not passed away."
+      ]
+    },
+    {
+      "intent": "fifth_president_education_occupation",
+      "utterances": [
+        "What was Mahinda Rajapaksa's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "Mahinda Rajapaksa had a background in law and politics. He studied law and practiced as a lawyer and was actively involved in politics before becoming President."
+      ]
+    },
+    {
+      "intent": "fifth_president_highlights",
+      "utterances": [
+        "What were the key highlights of Mahinda Rajapaksa's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "Mahinda Rajapaksa is remembered for his role in ending the Sri Lankan civil conflict and for overseeing significant infrastructure development projects."
+      ]
+    },
+    {
+      "intent": "sixth_president_intro",
+      "utterances": [
+        "Tell me about the sixth President of Sri Lanka",
+        "Who was the sixth President of Sri Lanka?",
+        "Introduce me to Maithripala Sirisena, the sixth President."
+      ],
+      "answers": [
+        "Maithripala Sirisena served as the sixth President of Sri Lanka. He held office from 2015 to 2019 and made significant contributions to the country's political history."
+      ]
+    },
+    {
+      "intent": "sixth_president_duration",
+      "utterances": [
+        "How long did Maithripala Sirisena serve as President?",
+        "Tell me the duration of Sirisena's presidency.",
+        "For how many years was he the President?",
+        "What was the term length of Sirisena's presidency?"
+      ],
+      "answers": [
+        "Maithripala Sirisena served as the President of Sri Lanka for four years, from 2015 to 2019."
+      ]
+    },
+    {
+      "intent": "sixth_president_early_life",
+      "utterances": [
+        "What was Maithripala Sirisena's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Sirisena's personal life.",
+        "What was Sirisena's life like before he became President?"
+      ],
+      "answers": [
+        "Maithripala Sirisena had a background in agriculture and politics. He was born on September 3, 1951, in Polonnaruwa, Sri Lanka, and was actively involved in agriculture and political activities."
+      ]
+    },
+    {
+      "intent": "sixth_president_constitution",
+      "utterances": [
+        "How did Maithripala Sirisena contribute to Sri Lanka's constitutional changes?",
+        "Tell me about any constitutional reforms during his presidency.",
+        "Explain the significance of Sirisena's role in constitutional development.",
+        "What was Sirisena's role in changing Sri Lanka's constitution?"
+      ],
+      "answers": [
+        "Maithripala Sirisena's presidency witnessed the 19th Amendment to the Constitution, which brought about changes to executive powers and term limits."
+      ]
+    },
+    {
+      "intent": "sixth_president_impact",
+      "utterances": [
+        "What impact did Sirisena's presidency have on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How did his presidency shape the country?",
+        "Tell me about Sirisena's influence on Sri Lanka."
+      ],
+      "answers": [
+        "Maithripala Sirisena's presidency is remembered for his efforts in promoting good governance, constitutional reforms, and fostering reconciliation in Sri Lanka."
+      ]
+    },
+    {
+      "intent": "sixth_president_birth_year",
+      "utterances": [
+        "What was Maithripala Sirisena's birth year?",
+        "Tell me when Maithripala Sirisena was born.",
+        "When was the sixth President of Sri Lanka born?"
+      ],
+      "answers": [
+        "Maithripala Sirisena was born on September 3, 1951, in Polonnaruwa, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "sixth_president_age_become",
+      "utterances": [
+        "At what age did Maithripala Sirisena become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "Maithripala Sirisena became the President of Sri Lanka at the age of 63 in 2015."
+      ]
+    },
+    {
+      "intent": "sixth_president_age_passing",
+      "utterances": [
+        "How old was Maithripala Sirisena when he passed away?",
+        "Tell me about his age at the time of his death.",
+        "When did he retire from politics and at what age?"
+      ],
+      "answers": [
+        "As of my last knowledge update in September 2021, Maithripala Sirisena is still alive and has not passed away."
+      ]
+    },
+    {
+      "intent": "sixth_president_education_occupation",
+      "utterances": [
+        "What was Maithripala Sirisena's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "Maithripala Sirisena had a background in agriculture and was involved in farming. He held various political positions and was the Minister of Health before becoming President."
+      ]
+    },
+    {
+      "intent": "sixth_president_highlights",
+      "utterances": [
+        "What were the key highlights of Maithripala Sirisena's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "Maithripala Sirisena is remembered for his commitment to good governance, constitutional reforms, and efforts towards national reconciliation in Sri Lanka."
+      ]
+    },
+    {
+      "intent": "seventh_president_intro",
+      "utterances": [
+        "Tell me about the seventh President of Sri Lanka",
+        "Who is the seventh President of Sri Lanka?",
+        "Introduce me to Gotabaya Rajapaksa, the seventh President."
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa currently serves as the seventh President of Sri Lanka. He assumed office in 2019 and is a prominent figure in Sri Lankan politics."
+      ]
+    },
+    {
+      "intent": "seventh_president_duration",
+      "utterances": [
+        "How long has Gotabaya Rajapaksa been serving as President?",
+        "Tell me the duration of Rajapaksa's presidency.",
+        "For how many years has he been the President?",
+        "What is the term length of Rajapaksa's presidency?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa has been serving as the President of Sri Lanka since 2019."
+      ]
+    },
+    {
+      "intent": "seventh_president_early_life",
+      "utterances": [
+        "What was Gotabaya Rajapaksa's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Rajapaksa's personal life.",
+        "What was Rajapaksa's life like before he became President?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa has a background in defense and public administration. He was born on June 20, 1949, in Weeraketiya, Sri Lanka, and had a distinguished career in the military and government."
+      ]
+    },
+    {
+      "intent": "seventh_president_political_career",
+      "utterances": [
+        "Tell me about Gotabaya Rajapaksa's political career",
+        "What positions did he hold before becoming President?",
+        "Explain his political journey before the presidency."
+      ],
+      "answers": [
+        "Before becoming President, Gotabaya Rajapaksa held various government positions, including Secretary of Defense and Urban Development. He was known for his role in ending the Sri Lankan civil conflict."
+      ]
+    },
+    {
+      "intent": "seventh_president_impact",
+      "utterances": [
+        "What impact has Rajapaksa's presidency had on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How has his presidency shaped the country?",
+        "Tell me about Rajapaksa's influence on Sri Lanka."
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa's presidency has focused on national security, economic development, and infrastructure projects. His tenure has had a significant impact on the country's direction."
+      ]
+    },
+    {
+      "intent": "seventh_president_birth_year",
+      "utterances": [
+        "What was Gotabaya Rajapaksa's birth year?",
+        "Tell me when Gotabaya Rajapaksa was born.",
+        "When was the seventh President of Sri Lanka born?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa was born on June 20, 1949, in Weeraketiya, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "seventh_president_age_become",
+      "utterances": [
+        "At what age did Gotabaya Rajapaksa become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa became the President of Sri Lanka at the age of 70 in 2019."
+      ]
+    },
+    {
+      "intent": "seventh_president_age_inquiry",
+      "utterances": [
+        "How old is Gotabaya Rajapaksa now?",
+        "Tell me his current age."
+      ],
+      "answers": [
+        "As of my last knowledge update in September 2021, Gotabaya Rajapaksa was 72 years old."
+      ]
+    },
+    {
+      "intent": "seventh_president_education_occupation",
+      "utterances": [
+        "What was Gotabaya Rajapaksa's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa studied in Sri Lanka and abroad and had a career in the military. He held various positions in the military and government before becoming President."
+      ]
+    },
+    {
+      "intent": "seventh_president_highlights",
+      "utterances": [
+        "What were the key highlights of Gotabaya Rajapaksa's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa's presidency is known for its focus on national security, economic development, and infrastructure projects."
+      ]
+    },
+    {
+      "intent": "eighth_president_intro",
+      "utterances": [
+        "Tell me about the eighth President of Sri Lanka",
+        "Who is the eighth President of Sri Lanka?",
+        "Introduce me to Gotabaya Rajapaksa, the eighth President."
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa is the eighth President of Sri Lanka. He assumed office in 2019 and plays a significant role in the country's political landscape."
+      ]
+    },
+    {
+      "intent": "eighth_president_duration",
+      "utterances": [
+        "How long has Gotabaya Rajapaksa been serving as President?",
+        "Tell me the duration of Rajapaksa's presidency.",
+        "For how many years has he been the President?",
+        "What is the term length of Rajapaksa's presidency?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa has been serving as the President of Sri Lanka since 2019."
+      ]
+    },
+    {
+      "intent": "eighth_president_early_life",
+      "utterances": [
+        "What was Gotabaya Rajapaksa's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Rajapaksa's personal life.",
+        "What was Rajapaksa's life like before he became President?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa has a background in defense and public administration. He was born on June 20, 1949, in Weeraketiya, Sri Lanka, and had a distinguished career in the military and government."
+      ]
+    },
+    {
+      "intent": "eighth_president_political_career",
+      "utterances": [
+        "Tell me about Gotabaya Rajapaksa's political career",
+        "What positions did he hold before becoming President?",
+        "Explain his political journey before the presidency."
+      ],
+      "answers": [
+        "Before becoming President, Gotabaya Rajapaksa held various government positions, including Secretary of Defense and Urban Development. He was known for his role in ending the Sri Lankan civil conflict."
+      ]
+    },
+    {
+      "intent": "eighth_president_impact",
+      "utterances": [
+        "What impact has Rajapaksa's presidency had on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How has his presidency shaped the country?",
+        "Tell me about Rajapaksa's influence on Sri Lanka."
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa's presidency has focused on national security, economic development, and infrastructure projects. His tenure has had a significant impact on the country's direction."
+      ]
+    },
+    {
+      "intent": "eighth_president_birth_year",
+      "utterances": [
+        "What was Gotabaya Rajapaksa's birth year?",
+        "Tell me when Gotabaya Rajapaksa was born.",
+        "When was the eighth President of Sri Lanka born?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa was born on June 20, 1949, in Weeraketiya, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "eighth_president_age_become",
+      "utterances": [
+        "At what age did Gotabaya Rajapaksa become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa became the President of Sri Lanka at the age of 70 in 2019."
+      ]
+    },
+    {
+      "intent": "eighth_president_age_inquiry",
+      "utterances": [
+        "How old is Gotabaya Rajapaksa now?",
+        "Tell me his current age."
+      ],
+      "answers": [
+        "As of my last knowledge update in September 2021, Gotabaya Rajapaksa was 72 years old."
+      ]
+    },
+    {
+      "intent": "eighth_president_education_occupation",
+      "utterances": [
+        "What was Gotabaya Rajapaksa's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa studied in Sri Lanka and abroad and had a career in the military. He held various positions in the military and government before becoming President."
+      ]
+    },
+    {
+      "intent": "eighth_president_highlights",
+      "utterances": [
+        "What were the key highlights of Gotabaya Rajapaksa's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "Gotabaya Rajapaksa's presidency is known for its focus on national security, economic development, and infrastructure projects."
+      ]
+    },
+    {
+      "intent": "ninth_president_intro",
+      "utterances": [
+        "Tell me about the ninth President of Sri Lanka",
+        "Who is the ninth President of Sri Lanka?",
+        "Introduce me to Ranil Wickremesinghe, the ninth President."
+      ],
+      "answers": [
+        "Ranil Wickremesinghe served as the ninth President of Sri Lanka. He held office from [Year] to [Year] and made significant contributions to the country's political history."
+      ]
+    },
+    {
+      "intent": "ninth_president_duration",
+      "utterances": [
+        "How long did Ranil Wickremesinghe serve as President?",
+        "Tell me the duration of Wickremesinghe's presidency.",
+        "For how many years was he the President?",
+        "What was the term length of Wickremesinghe's presidency?"
+      ],
+      "answers": [
+        "Ranil Wickremesinghe served as the President of Sri Lanka for [X] years, from [Year] to [Year]."
+      ]
+    },
+    {
+      "intent": "ninth_president_early_life",
+      "utterances": [
+        "What was Ranil Wickremesinghe's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Wickremesinghe's personal life.",
+        "What was Wickremesinghe's life like before he became President?"
+      ],
+      "answers": [
+        "Ranil Wickremesinghe had a background in law and politics. He was born on March 24, 1949, in Colombo, Sri Lanka, and had a career in law and politics before becoming President."
+      ]
+    },
+    {
+      "intent": "ninth_president_political_career",
+      "utterances": [
+        "Tell me about Ranil Wickremesinghe's political career",
+        "What positions did he hold before becoming President?",
+        "Explain his political journey before the presidency."
+      ],
+      "answers": [
+        "Before becoming President, Ranil Wickremesinghe held various government positions, including Prime Minister. He was known for his political leadership and contributions to Sri Lankan politics."
+      ]
+    },
+    {
+      "intent": "ninth_president_impact",
+      "utterances": [
+        "What impact did Wickremesinghe's presidency have on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How did his presidency shape the country?",
+        "Tell me about Wickremesinghe's influence on Sri Lanka."
+      ],
+      "answers": [
+        "Ranil Wickremesinghe's presidency had a significant impact on the country's political landscape and economic policies. He is remembered for his contributions to governance and international relations."
+      ]
+    },
+    {
+      "intent": "ninth_president_birth_year",
+      "utterances": [
+        "What was Ranil Wickremesinghe's birth year?",
+        "Tell me when Ranil Wickremesinghe was born.",
+        "When was the ninth President of Sri Lanka born?"
+      ],
+      "answers": [
+        "Ranil Wickremesinghe was born on March 24, 1949, in Colombo, Sri Lanka."
+      ]
+    },
+    {
+      "intent": "ninth_president_age_become",
+      "utterances": [
+        "At what age did Ranil Wickremesinghe become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "Ranil Wickremesinghe became the President of Sri Lanka at the age of [Age] in [Year]."
+      ]
+    },
+    {
+      "intent": "ninth_president_age_inquiry",
+      "utterances": [
+        "How old is Ranil Wickremesinghe now?",
+        "Tell me his current age."
+      ],
+      "answers": [
+        "As of my last knowledge update in September 2021, Ranil Wickremesinghe was [Age] years old."
+      ]
+    },
+    {
+      "intent": "ninth_president_education_occupation",
+      "utterances": [
+        "What was Ranil Wickremesinghe's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "Ranil Wickremesinghe had a background in law and held various government positions, including Prime Minister, before becoming President."
+      ]
+    },
+    {
+      "intent": "ninth_president_highlights",
+      "utterances": [
+        "What were the key highlights of Ranil Wickremesinghe's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "Ranil Wickremesinghe's presidency is known for its contributions to governance, economic policies, and international relations."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_intro",
+      "utterances": [
+        "Tell me about D.B. Wijetunga, the fourth President of Sri Lanka",
+        "Who was the fourth President of Sri Lanka?",
+        "Introduce me to D.B. Wijetunga."
+      ],
+      "answers": [
+        "D.B. Wijetunga served as the fourth President of Sri Lanka. He held office from 1989 to 1993 and made significant contributions to the country's political history."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_duration",
+      "utterances": [
+        "How long did D.B. Wijetunga serve as President?",
+        "Tell me the duration of Wijetunga's presidency.",
+        "For how many years was he the President?",
+        "What was the term length of Wijetunga's presidency?"
+      ],
+      "answers": [
+        "D.B. Wijetunga served as the President of Sri Lanka for four years, from 1989 to 1993."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_early_life",
+      "utterances": [
+        "What was D.B. Wijetunga's background before becoming President?",
+        "Tell me about his early life and upbringing.",
+        "Share some details about Wijetunga's personal life.",
+        "What was Wijetunga's life like before he became President?"
+      ],
+      "answers": [
+        "D.B. Wijetunga had a background in politics and civil service. He was born on February 5, 1924, in Sri Lanka and had a career in civil service and government before becoming President."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_political_career",
+      "utterances": [
+        "Tell me about D.B. Wijetunga's political career",
+        "What positions did he hold before becoming President?",
+        "Explain his political journey before the presidency."
+      ],
+      "answers": [
+        "Before becoming President, D.B. Wijetunga held various government positions, including Prime Minister and Minister of Finance. He was known for his political leadership and contributions to Sri Lankan politics."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_impact",
+      "utterances": [
+        "What impact did Wijetunga's presidency have on Sri Lanka?",
+        "Explain the lasting effects of his leadership.",
+        "How did his presidency shape the country?",
+        "Tell me about Wijetunga's influence on Sri Lanka."
+      ],
+      "answers": [
+        "D.B. Wijetunga's presidency had a significant impact on the country's political landscape and economic policies. He is remembered for his contributions to governance and economic reforms in Sri Lanka."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_birth_year",
+      "utterances": [
+        "What was D.B. Wijetunga's birth year?",
+        "Tell me when D.B. Wijetunga was born.",
+        "When was the fourth President of Sri Lanka born?"
+      ],
+      "answers": [
+        "D.B. Wijetunga was born on February 5, 1924, in Sri Lanka."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_age_become",
+      "utterances": [
+        "At what age did D.B. Wijetunga become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "D.B. Wijetunga became the President of Sri Lanka at the age of 65 in 1989."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_age_inquiry",
+      "utterances": [
+        "How old was D.B. Wijetunga at the time of his passing?",
+        "Tell me about his age at the time of his retirement from politics."
+      ],
+      "answers": [
+        "D.B. Wijetunga passed away on December 21, 2008. He was [Age] years old at the time of his passing."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_education_occupation",
+      "utterances": [
+        "What was D.B. Wijetunga's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "D.B. Wijetunga had a background in law and held various government positions, including Prime Minister and Minister of Finance, before becoming President."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_age_become",
+      "utterances": [
+        "At what age did D.B. Wijetunga become the President of Sri Lanka?",
+        "Tell me how old he was when he assumed the presidency.",
+        "When did he start his presidential term?"
+      ],
+      "answers": [
+        "D.B. Wijetunga became the President of Sri Lanka at the age of 65 in 1989."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_age_inquiry",
+      "utterances": [
+        "How old was D.B. Wijetunga at the time of his passing?",
+        "Tell me about his age at the time of his retirement from politics."
+      ],
+      "answers": [
+        "D.B. Wijetunga passed away on December 21, 2008. He was [Age] years old at the time of his passing."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_education_occupation",
+      "utterances": [
+        "What was D.B. Wijetunga's educational background?",
+        "Tell me about his education and profession.",
+        "What was his occupation before becoming President?"
+      ],
+      "answers": [
+        "D.B. Wijetunga had a background in law and held various government positions, including Prime Minister and Minister of Finance, before becoming President."
+      ]
+    },
+    {
+      "intent": "d_b_wijetunga_highlights",
+      "utterances": [
+        "What were the key highlights of D.B. Wijetunga's presidency?",
+        "Tell me about notable events during his time as President.",
+        "What achievements is he remembered for?"
+      ],
+      "answers": [
+        "D.B. Wijetunga's presidency is known for its contributions to governance, economic reforms, and political stability in Sri Lanka."
+      ]
+    },
+    {
+      "intent": "sri_lankan_presidents",
+      "utterances": [
+        "List Sri Lankan presidents",
+        "Tell me about the presidents of Sri Lanka",
+        "Who are the past presidents of Sri Lanka?",
+        "Give me a list of Sri Lankan heads of state",
+        "Sri Lankan presidential history",
+        "Presidents in Sri Lanka",
+        "Sri Lankan leaders over the years"
+      ],
+      "answers": [
+        "Sri Lanka has had several presidents throughout its history, including notable figures like J.R. Jayewardene, Chandrika Kumaratunga, Mahinda Rajapaksa, Maithripala Sirisena, and Gotabaya Rajapaksa. Each of them has made unique contributions to the country's political landscape."
+      ]
+    },
+    {
+      "intent": "sri_lankan_presidents_present",
+      "utterances": [
+        "2022 2023 Sri Lankan president",
+        "Tell me about the present president of Sri Lanka",
+        "Who are the present president of Sri Lanka?",
+        "present sri lanka president",
+        "Sri Lankan president 2022",
+        "President of Sri Lanka",
+        ""
+      ],
+      "answers": [
+        "Ranil Wickramasinghe "
+      ]
+    },
+    {
+      "intent": "user.needsadvice",
+      "utterances": [
+        "I need advice",
+        "I need some advice",
+        "can you give me some advice?",
+        "what should I do?"
+      ],
+      "answers": [
+        "I probably won't be able to give you the correct answer right away",
+        "I'm not sure I'll have the best answer, but I'll try"
+      ]
+    },
+    {
+      "intent": "None",
+      "utterances": [
+        "I need advice",
+        "I need some advice",
+        "can you give me some advice?",
+        "what should I do?"
+      ],
+      "answers": [
+        "Sorry, I don't understand"
+      ]
+    }
+  ]
+}
